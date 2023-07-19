@@ -10,6 +10,10 @@ public class Videogame extends Media {
         this.platform = platform;
     }
 
+    public String tellingStories(){
+        return "I am interactive";
+    }
+
     public boolean play(){
         return true;
     }

@@ -23,6 +23,8 @@ public abstract class Media {
 
     }
 
+    public abstract String tellingStories();
+
     public double calculateMargin(){
         return this.sellPrice - this.cost;
 

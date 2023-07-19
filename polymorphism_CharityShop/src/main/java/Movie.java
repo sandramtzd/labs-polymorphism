@@ -10,6 +10,10 @@ public class Movie extends Media{
         this.studiosName = studiosName;
     }
 
+    public String tellingStories(){
+        return "I am an audiovisual experience but not interactive";
+    }
+
     public boolean watch(){
         return true;
 

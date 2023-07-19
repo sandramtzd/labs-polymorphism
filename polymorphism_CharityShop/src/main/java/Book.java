@@ -11,6 +11,10 @@ public class Book extends Media {
 
     }
 
+    public String tellingStories(){
+        return "I am not interactive but imaginative experience";
+    }
+
     public boolean read(){
         return true;
     }
